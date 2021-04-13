@@ -20,5 +20,6 @@ return [
     'price required' => 'price is required ',
     'price numeric' => 'price  must be numeric ',
     'details required' => 'details  is required ',
+    'photo required' =>' photo is required',
 
 ];

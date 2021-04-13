@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d11694c-c725-492f-8b8c-5f8799a94c24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Traits/OfferTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/offers/1618312899.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/offers/1618312954.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/offers/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OfferController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OfferController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/OfferRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/OfferRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Offer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Offer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/OfferView.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/OfferView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/mesage.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/mesage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/OfferView.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/OfferView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/error.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/mesage.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/mesage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navigate.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navigate.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/offers/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/offers/all.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/offers/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/offers/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,19 +155,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/offers" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\laravel_project\sec\app\Models" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel_project\sec\resources\views\offers" />
       <recent name="C:\xampp\htdocs\laravel_project\sec\resources\views\layouts" />
       <recent name="C:\xampp\htdocs\laravel_project\sec\resources\lang\en" />
-      <recent name="C:\xampp\htdocs\laravel_project\sec\resources\views\offers" />
       <recent name="C:\xampp\htdocs\laravel_project\sec\database\migrations" />
       <recent name="C:\xampp\htdocs\laravel_project\sec\resources\views\emails" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel_project\sec\app\Models" />
     </key>
   </component>
   <component name="RunManager">
@@ -175,7 +189,7 @@
       <workItem from="1617901404770" duration="8530000" />
       <workItem from="1618046347410" duration="7577000" />
       <workItem from="1618140404334" duration="23839000" />
-      <workItem from="1618301726831" duration="902000" />
+      <workItem from="1618301726831" duration="9425000" />
     </task>
     <servers />
   </component>
@@ -191,6 +205,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="367" y="19" width="645" height="690" key="#phpunit.xml/0.0.1366.728@0.0.1366.728" timestamp="1618049921578" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1618323485617">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1618323485617" />
     <state width="661" height="179" key="GridCell.Tab.0.bottom" timestamp="1618046248900">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -219,9 +237,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1618140431726" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1618142503560">
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618323468321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1618142503560" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1618323468321" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1618307146693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1618307146693" />
   </component>
 </project>

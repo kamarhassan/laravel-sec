@@ -23,5 +23,6 @@ return [
     'enter details of offer'=>'معلومات العرض',
 
     'offers has been success inserted'=>'تم دخال العرض بنجاح',
-
+    'edit bu id'=>'تعديل',
+    'offers has been success updated'=>'تم التعديل بنجاح',
 ];

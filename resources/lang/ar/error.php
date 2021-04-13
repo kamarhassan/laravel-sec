@@ -20,5 +20,6 @@ return [
     'price required' => 'سعر  العرض مطلوب',
     'price numeric' =>' السعر يجب ان يكون رقم',
     'details required' => 'المعلومات مطلوبة  ',
+    'photo required' =>'الصورة  مطلوبة  ',
 
 ];

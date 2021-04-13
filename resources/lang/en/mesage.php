@@ -23,5 +23,6 @@ return [
     'enter details of offer' => 'Details of offer',
 
     'offers has been success inserted'=>'offers has been success inserted',
-
+    'edit bu id'=>'edit',
+    'offers has been success updated'=>'offers has been success updated',
 ];

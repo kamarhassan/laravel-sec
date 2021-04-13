@@ -16,4 +16,6 @@ return [
     'name of offer'      => 'name of offer'  ,
     'price of offer'    => 'price of offer'  ,
     'details of offer'   => 'details of offer',
-];
+    'operation'=>'Update',
+    'images offer'=>'images offer',
+    ];

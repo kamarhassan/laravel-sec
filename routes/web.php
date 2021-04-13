@@ -29,9 +29,16 @@ Route::get('/home', 'HomeController@index')->name('home')->middleware('verified'
 Route::get('fillable', 'OfferController@getOffer');
 
 
-    Route::group(['prefix' => LaravelLocalization::setLocale(),'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]], function () {
-        Route::group(['prefix' => 'offers'], function () {
+Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']], function () {
+    Route::group(['prefix' => 'offers'], function () {
         Route::get('create', 'OfferController@create');
+        Route::post('store', 'OfferController@store')->name('offers.store');
+
+        Route::get('all', 'OfferController@allOffer');
+
+        Route::get('edit/{offer_id}', 'OfferController@offerEdit');
+        Route::post('update/{offer_id}', 'OfferController@offerUpdate')->name('offers.update');
+
     });
-    Route::post('store', 'OfferController@store')->name('offers.store');
+
 });

@@ -71,6 +71,13 @@
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+
+
+
+
+
+
+
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
             <div class="navbar-nav">

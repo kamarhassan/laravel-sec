@@ -26,7 +26,8 @@ class OfferRequest extends FormRequest
         return [
             'name' => 'required | max:100 | unique:offers,name',
             'price' => ' required | numeric',
-            'details' => 'required'
+            'details' => 'required',
+            'photo'=>'required',
         ];
     }
 
@@ -40,6 +41,8 @@ class OfferRequest extends FormRequest
             'price.required' => __('error.price required'),
             'price.numeric' => __('error.price numeric'),
             'details.required' => __('error.details required'),
+            'photo.required' => __('error.photo required'),
+
         ];
     }
 }

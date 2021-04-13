@@ -17,4 +17,7 @@ return [
     'name of offer' => 'اسم العرض ',
     'price of offer' => 'سعر العرض ',
     'details of offer' => 'تفاصيل العرض',
+    'operation'=>'تحديث المعلومات',
+    'images offer'=>'صورة العرض',
 ];
+
