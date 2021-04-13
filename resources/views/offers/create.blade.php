@@ -43,6 +43,8 @@
                                 <small class="form-text text-danger">{{$errors->first('details')}}</small>
                                 @enderror
                             </div>
+
+                            <input type="hidden" name="language" value="{{ LaravelLocalization::getCurrentLocale() }}">
                             <br>
                             <button type="submit" class="btn btn-primary">{{__('mesage.saved button')}}</button>
                         </form>

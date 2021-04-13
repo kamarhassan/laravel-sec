@@ -40,6 +40,7 @@ class OfferController extends Controller
             'name' => $request->name,
             'price' => $request->price,
             'details' => $request->details,
+            'lang'=>$request->language,
         ]);
         return redirect()->back()->with(['success' => __('mesage.offers has been success inserted')]);
     }
