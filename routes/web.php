@@ -44,21 +44,24 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 
 });
 
-Route::group(['namespace' => 'Auth', 'middleware' =>'checkExpire'], function () {
+Route::group(['namespace' => 'Auth', 'middleware' => 'checkExpire'], function () {
     Route::get('checkexpire', 'ExpireController@checkexpire')->name('expire.ORNOT');
 
 });
 
 
-
 #############################   Begin  relation routes ###########################################################
 
-    Route::group(['namespace' => 'Relation'], function () {
+Route::group(['namespace' => 'Relation'], function () {
 
-       Route::get('get-user-and-adress','RelationController@GetUserAndPhone');
-       Route::get('get-user-have-adress','RelationController@GetUserhaveAndPhone');
-       Route::get('get-user-have-adress-by-id','RelationController@GetUserhaveAndPhoneById');
+    Route::get('get-user-and-adress', 'RelationController@GetUserAndAdress');
+    Route::get('get-user-have-adress', 'RelationController@GetUserhaveAndAdress');
+    Route::get('get-user-have-adress-by-id', 'RelationController@GetUserhaveAndAdressById');
+    Route::get('get-user-nothave-adress', 'RelationController@GetUsernothaveAndAdressById');
+    Route::get('get-user-and-adress-with-query', 'RelationController@GetUserAndAdressWithQuery');
+    /**  ------------------------------------------------------------------------------------------------------ **/
+    Route::get('get-adress-to-user', 'RelationController@GetAdressToUser');
 
-    });
+});
 
 ################################   End  relation  routes    ########################################################

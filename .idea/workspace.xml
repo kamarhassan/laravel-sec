@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d11694c-c725-492f-8b8c-5f8799a94c24" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +177,7 @@
       <workItem from="1618301726831" duration="10531000" />
       <workItem from="1618398311761" duration="2810000" />
       <workItem from="1620397477545" duration="3443000" />
-      <workItem from="1620894967418" duration="4050000" />
+      <workItem from="1620894967418" duration="5466000" />
     </task>
     <task id="LOCAL-00001" summary="'after_select_data_from_data_base'">
       <created>1618323532323</created>
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620896499467</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="'add foreign key from migration and one to on relation'">
+      <created>1620899312426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620899312426</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,10 +227,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="367" y="19" width="645" height="690" key="#phpunit.xml/0.0.1366.728@0.0.1366.728" timestamp="1618049921578" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1620899286003">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1620899311366">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1620899286003" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1620899311366" />
     <state width="661" height="179" key="GridCell.Tab.0.bottom" timestamp="1618046248900">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -249,10 +255,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1617901851253" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1620896506541">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1620899320492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1620896506541" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1620899320492" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1620894990536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
