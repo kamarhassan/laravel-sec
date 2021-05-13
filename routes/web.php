@@ -64,4 +64,25 @@ Route::group(['namespace' => 'Relation'], function () {
 
 });
 
-################################   End  relation  routes    ########################################################
+##############################  End  relation  routes    ##############################
+
+
+##############################   Begin  relation routes  One To Many   ##############################
+
+Route::group(['namespace' => 'Relation'], function () {
+
+    Route::get('get-hospital-doctor', 'OneToManyController@GetHospitalDoctors')->name('get.hospital.doctors');
+    Route::get('get-doctors-hospital/{hospital_id}', 'OneToManyController@GetDoctorsFromHospital')->
+    name('doctor.hospital');
+
+
+    Route::get('get-hospital-has-doctor', 'OneToManyController@GetHospitalHasDoctors');
+
+    Route::get('get-hospital-has-doctor-male', 'OneToManyController@GetHospitalHasDoctorsMale');
+
+    Route::get('get-hospital-NotHas-doctor', 'OneToManyController@GetHospitalNotHasDoctors');
+    Route::get('remove-hospital-with-doctor/{hospital_id}', 'OneToManyController@RemoveHospitalwithDoctors')->name('remove.hospital');
+
+
+});
+##############################   end   relation routes  One To Many   ##############################

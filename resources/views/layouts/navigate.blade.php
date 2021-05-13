@@ -78,17 +78,17 @@
 
 
 
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active"
-                   href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">{{ $properties['native'] }}</a>
-                {{--            <a class="nav-item nav-link" href="#">Features</a>--}}
-                {{--            <a class="nav-item nav-link" href="#">Pricing</a>--}}
-                {{--            <a class="nav-item nav-link disabled" href="#">Disabled</a>--}}
-            </div>
-        @endforeach
-    </div>
+{{--    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">--}}
+{{--        @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)--}}
+{{--            <div class="navbar-nav">--}}
+{{--                <a class="nav-item nav-link active"--}}
+{{--                   href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">{{ $properties['native'] }}</a>--}}
+{{--                --}}{{--            <a class="nav-item nav-link" href="#">Features</a>--}}
+{{--                --}}{{--            <a class="nav-item nav-link" href="#">Pricing</a>--}}
+{{--                --}}{{--            <a class="nav-item nav-link disabled" href="#">Disabled</a>--}}
+{{--            </div>--}}
+{{--        @endforeach--}}
+{{--    </div>--}}
 </nav>
 
 @yield('create')
