@@ -48,3 +48,17 @@ Route::group(['namespace' => 'Auth', 'middleware' =>'checkExpire'], function () 
     Route::get('checkexpire', 'ExpireController@checkexpire')->name('expire.ORNOT');
 
 });
+
+
+
+#############################   Begin  relation routes ###########################################################
+
+    Route::group(['namespace' => 'Relation'], function () {
+
+       Route::get('get-user-and-adress','RelationController@GetUserAndPhone');
+       Route::get('get-user-have-adress','RelationController@GetUserhaveAndPhone');
+       Route::get('get-user-have-adress-by-id','RelationController@GetUserhaveAndPhoneById');
+
+    });
+
+################################   End  relation  routes    ########################################################
