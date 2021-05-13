@@ -15,13 +15,14 @@ class CreateOffersTable extends Migration
     {
 
 
-        Schema::create('offers', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
+        Schema::create('offers',
+            function (Blueprint $table) {
+                $table->id();
+                $table->string('name');
+                $table->string('email')->unique();
 
 
-        });
+            });
 
 
     }

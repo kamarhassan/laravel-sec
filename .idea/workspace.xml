@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d11694c-c725-492f-8b8c-5f8799a94c24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="3d11694c-c725-492f-8b8c-5f8799a94c24" name="Default Changelist" comment="'after_select_data_from_data_base'">
+      <change afterPath="$PROJECT_DIR$/resources/views/expire/expire.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_offers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_offers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,18 +142,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/offers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/migrations" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel_project\sec\database\migrations" />
+      <recent name="C:\xampp\htdocs\laravel_project\sec\resources\views\expire" />
       <recent name="C:\xampp\htdocs\laravel_project\sec\resources\views\offers" />
       <recent name="C:\xampp\htdocs\laravel_project\sec\resources\views\layouts" />
       <recent name="C:\xampp\htdocs\laravel_project\sec\resources\lang\en" />
-      <recent name="C:\xampp\htdocs\laravel_project\sec\database\migrations" />
-      <recent name="C:\xampp\htdocs\laravel_project\sec\resources\views\emails" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel_project\sec\app\Http\Controllers\Auth" />
       <recent name="C:\xampp\htdocs\laravel_project\sec\app\Models" />
     </key>
   </component>
@@ -173,7 +177,10 @@
       <workItem from="1617901404770" duration="8530000" />
       <workItem from="1618046347410" duration="7577000" />
       <workItem from="1618140404334" duration="23839000" />
-      <workItem from="1618301726831" duration="9665000" />
+      <workItem from="1618301726831" duration="10531000" />
+      <workItem from="1618398311761" duration="2810000" />
+      <workItem from="1620397477545" duration="3443000" />
+      <workItem from="1620894967418" duration="1341000" />
     </task>
     <task id="LOCAL-00001" summary="'after_select_data_from_data_base'">
       <created>1618323532323</created>
@@ -182,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618323532323</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="'after_select_data_from_data_base'">
+      <created>1618323629441</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618323629441</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,18 +207,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="'after_select_data_from_data_base'" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1618142172426">
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1620895226708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1618142172426" />
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1620895226708" />
     <state x="367" y="19" width="645" height="690" key="#phpunit.xml" timestamp="1618049921578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="367" y="19" width="645" height="690" key="#phpunit.xml/0.0.1366.728@0.0.1366.728" timestamp="1618049921578" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1618323523450">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1620400893604">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1618323523450" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1620400893604" />
     <state width="661" height="179" key="GridCell.Tab.0.bottom" timestamp="1618046248900">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -229,17 +243,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1617901851253" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1618140431726">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1618323637603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1618140431726" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1618323637603" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1620894990536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1620894990536" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618323615002">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1618323615002" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1618307146693">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1618399238275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1618307146693" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1618399238275" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1618399189273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1618399189273" />
   </component>
 </project>

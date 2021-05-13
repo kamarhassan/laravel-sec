@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('', function () {
     return view('welcome');
 });
 
@@ -31,6 +31,7 @@ Route::get('fillable', 'OfferController@getOffer');
 
 Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']], function () {
     Route::group(['prefix' => 'offers'], function () {
+
         Route::get('create', 'OfferController@create');
         Route::post('store', 'OfferController@store')->name('offers.store');
 
@@ -40,5 +41,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
         Route::post('update/{offer_id}', 'OfferController@offerUpdate')->name('offers.update');
 
     });
+
+});
+
+Route::group(['namespace' => 'Auth', 'middleware' =>'checkExpire'], function () {
+    Route::get('checkexpire', 'ExpireController@checkexpire')->name('expire.ORNOT');
 
 });
